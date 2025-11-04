@@ -1,0 +1,31 @@
+{
+  "dataset": "datasets/clean.csv",
+  "seed": 42,
+  "vectorizer": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "sublinear_tf": true
+  },
+  "model": {
+    "type": "LogisticRegression",
+    "C": 2.0,
+    "class_weight": "balanced",
+    "max_iter": 1000
+  },
+  "metrics": {
+    "accuracy": 0.9883408071748879,
+    "precision_spam": 0.9788732394366197,
+    "recall_spam": 0.9328859060402684,
+    "f1_spam": 0.9553264604810997
+  },
+  "trained_at": "2025-11-04 10:59:25",
+  "n_train": 4457,
+  "n_test": 1115,
+  "classes": [
+    "ham",
+    "spam"
+  ]
+}
