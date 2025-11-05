@@ -1,14 +1,14 @@
-📧 2025ML-SpamEmail (HW3: Email Spam USING OpenSpec)
+# 2025ML-SpamEmail (HW3: Email Spam USING OpenSpec)
 
 This project implements an SMS / Email Spam Classifier using TF-IDF + Logistic Regression.
 It includes both a CLI interface and an interactive Streamlit web app, with full OpenSpec documentation and change tracking.
 
-🧠 Overview
+# Overview
 
 The goal is to classify whether a message is Spam or Ham (Not Spam) using a machine learning pipeline and visualize predictions interactively.
 This project follows reproducible steps — from data preprocessing to deployment — and adopts OpenSpec for structured documentation of features and requirements.
 
-⚙️ Tech Stack
+# Tech Stack
 
 Language: Python 3.10
 
@@ -20,7 +20,7 @@ Deployment: Streamlit Cloud
 
 Version Control: GitHub
 
-🧩 Folder Structure
+#  Folder Structure
 2025ML-spamEmail/
 ├─ app/                     # Streamlit frontend
 │   └─ streamlit_app.py
@@ -44,7 +44,7 @@ Version Control: GitHub
 ├─ requirements.txt
 └─ README.md
 
-🚀 How to Run Locally
+# How to Run Locally
 1. Clone this repo
 git clone https://github.com/cyuwei0327-dotcom/2025ML-spamEmail.git
 cd 2025ML-spamEmail
@@ -70,12 +70,12 @@ streamlit run app/streamlit_app.py
 
 Then open your browser → http://localhost:8501
 
-🌐 Demo Site
+# Demo Site
 
 Hosted on Streamlit Cloud
-👉 https://2025spamemail.streamlit.app/
+https://2025spamemail.streamlit.app/
 
-📄 OpenSpec Integration
+# OpenSpec Integration
 
 This project uses OpenSpec for structured documentation of software requirements.
 
@@ -104,7 +104,7 @@ Model card visualization
 
 Adjustable probability threshold
 
-📊 Example Output
+# Example Output
 
 CLI prediction example:
 
@@ -122,7 +122,7 @@ Adjust threshold slider
 
 Download predicted results as CSV
 
-🧾 References
+# References
 
 Dataset: PacktPublishing / Hands-On Artificial Intelligence for Cybersecurity
 
